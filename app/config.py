@@ -60,8 +60,3 @@ SUPPORTED_FORMATS = [
 def keys_configured() -> bool:
     """Returns True if the OpenAI API key is configured."""
     return bool(OPENAI_API_KEY)
-
-
-def keys_configured() -> bool:
-    """Returns True if the OpenAI API key is set."""
-    return bool(OPENAI_API_KEY)
